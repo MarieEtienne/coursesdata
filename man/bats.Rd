@@ -5,7 +5,16 @@
 \alias{bats}
 \title{Bats analysis of brain size in relation to foraging ecology}
 \format{
-
+A data frame with 63 rows and 8 variables:
+\describe{
+  \item{Species}{bats Species}
+  \item{Diet}{Diet categories (1 = phytophage ; 2 = gleaner ; 3 = aerial insectivore ; 4 = vampire)}
+  \item{BOW}{Body mass}
+  \item{BRW}{Brain mass}
+  \item{AUD}{Auditory nuclei volume}
+  \item{MOB}{Main olfactory bulb volume}
+  \item{HIP}{Hippocampus volume}
+  }
 }
 \source{
 \url{https://biology.ucr.edu/people/faculty/Garland/HutcEA02.pdf}

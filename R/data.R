@@ -25,6 +25,7 @@
 #'   \item{AUD}{Auditory nuclei volume}
 #'   \item{MOB}{Main olfactory bulb volume}
 #'   \item{HIP}{Hippocampus volume}
+#'   }
 #' @source \url{https://biology.ucr.edu/people/faculty/Garland/HutcEA02.pdf}
 #' @example data(bats)
 "bats"
