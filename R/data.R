@@ -29,3 +29,66 @@
 #' @source \url{https://biology.ucr.edu/people/faculty/Garland/HutcEA02.pdf}
 #' @example data(bats)
 "bats"
+
+
+
+
+#' Annual average over the 1969 1971 time period of several atmospheric variables for different cities
+#'
+#'
+#' @format A data frame with 41 rows and 8 variables:
+#' \describe{
+#'   \item{City}{Name of the city of interest}
+#'   \item{SO2}{Sulphur dioxide which increases the risk of acid rain}
+#'   \item{temp}{Average temperature in Fahrenheit}
+#'   \item{manuf}{No. of companies employing more than 20 employees }
+#'   \item{pop}{Population in thousands}
+#'   \item{wind}{Maverage annual wind speed in miles/hour}
+#'   \item{precip}{annual precipitation height in inches}
+#'   \item{days}{No. of days of precipitation}
+#'   }
+#' @example data(usdata)
+"usdata"
+
+
+
+#' Plum trees transplantation rates
+#'
+#'
+#' @format A data frame with 8 rows and 4 variables:
+#' \describe{
+#'   \item{Longueur}{Root length at the time of transplantation, (court ou long)}
+#'   \item{Date}{Transplant period (automne/printemps)}
+#'   \item{Etat}{Tree status (Vivant/Mort)}
+#'   \item{Effectif}{Number of trees}
+#'   }
+#' @example data(pruniers)
+"pruniers"
+
+#' Pine trees allometry
+#'
+#'
+#' @format A data frame with 39 rows and 3 variables:
+#' \describe{
+#'   \item{Espece}{Pine species (Blanc/jaune)}
+#'   \item{Diametre}{Diameter in inches}
+#'   \item{Hauteur}{Height in feet}
+#'   }
+#' @example data(pins)
+"pins"
+
+
+
+#' California red-legged frog presence
+#'
+#'
+#' @format A data frame with 236 rows and 5 variables to the study the spatial repartition of the Calilfornia red-legged frogs.:
+#' \describe{
+#'   \item{Source}{primary source of the presence or absence status}
+#'   \item{Source2}{additional information on the sources}
+#'   \item{Status}{Presence or absence of the frogs on the site}
+#'   \item{Latitude}{Site Latitude}
+#'   \item{Longitude}{Site Longitude}
+#'   }
+#' @example data(grenouilles)
+"grenouilles"
