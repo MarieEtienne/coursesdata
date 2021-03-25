@@ -1,3 +1,25 @@
+#' fou data
+#'
+#' A  sf dataset containing the recorded position from  3 Brazilian red footed boobies
+#'
+#' @format A data frame with 5881 rows and 14 variables:
+#' \describe{
+#'   \item{time_step}{individual position id }
+#'   \item{datetime}{date}
+#'   \item{alt}{recorded altitude}
+#'   \item{dist.nid}{distance to a central place}
+#'   \item{ID}{bird ID}
+#'   \item{geometry}{the sf geometry column}
+#'   \item{Easting}{the x coordinates}
+#'   \item{Northing}{the y coordinates}
+#'
+#' }
+#' @example data(fou_sf)
+"fou_sf"
+
+
+
+
 #' Resting heartrate frequency
 #'
 #' A dataset containing the heartrate for 40 individuals, 20 men and 20 women, use to illustrate anova model
