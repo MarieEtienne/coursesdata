@@ -1,6 +1,6 @@
 #' fou data
 #'
-#' fou_dta and fou_dta_sf  sf dataset containing the recorded position from  3 Brazilian red footed boobies
+#' fou a dataset containing the recorded position from  3 Brazilian red footed boobies
 #'
 #' @format A data frame with 5881 rows and 14 variables:
 #' \describe{
