@@ -9,14 +9,11 @@
 #'   \item{alt}{recorded altitude}
 #'   \item{dist.nid}{distance to a central place}
 #'   \item{ID}{bird ID}
-#'   \item{geometry}{the sf geometry column for fou_dta_sf only}
 #'   \item{Easting}{the x coordinates}
 #'   \item{Northing}{the y coordinates}
 #'
 #' }
-#' @example data(fou_sf)
 #' @example data(fou)
-"fou_sf"
 'fou'
 
 
