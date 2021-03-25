@@ -1,6 +1,6 @@
 #' fou data
 #'
-#' A  sf dataset containing the recorded position from  3 Brazilian red footed boobies
+#' fou_dta and fou_dta_sf  sf dataset containing the recorded position from  3 Brazilian red footed boobies
 #'
 #' @format A data frame with 5881 rows and 14 variables:
 #' \describe{
@@ -9,13 +9,15 @@
 #'   \item{alt}{recorded altitude}
 #'   \item{dist.nid}{distance to a central place}
 #'   \item{ID}{bird ID}
-#'   \item{geometry}{the sf geometry column}
+#'   \item{geometry}{the sf geometry column for fou_dta_sf only}
 #'   \item{Easting}{the x coordinates}
 #'   \item{Northing}{the y coordinates}
 #'
 #' }
 #' @example data(fou_sf)
+#' @example data(fou)
 "fou_sf"
+'fou'
 
 
 
