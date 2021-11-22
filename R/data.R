@@ -29,7 +29,6 @@
 #'   \item{Sport}{a sports practice level}
 #'   \item{Sexe}{F for women and H for men}
 #' }
-#' @source \url{https://raw.githubusercontent.com/MarieEtienne/ModStat/master/data/FreqCardiaqueEq.txt}
 #' @example data(freqdata)
 "freqdata"
 
