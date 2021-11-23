@@ -13,8 +13,8 @@
 #'   \item{Northing}{the y coordinates}
 #'
 #' }
-#' @example data(fou)
-'fou'
+#' @example data(fou_dta)
+'fou_dta'
 
 
 
@@ -31,6 +31,21 @@
 #' }
 #' @example data(freqdata)
 "freqdata"
+
+
+#' Resting heartrate frequency
+#'
+#' A dataset containing the heartrate for 24 individuals, 20 men and 20 women, use to illustrate anova model
+#'
+#' @format A data frame with 40 rows and 3 variables:
+#' \describe{
+#'   \item{freqC}{heartrate}
+#'   \item{Sport}{Three different activities }
+#'   \item{Sexe}{F for women and H for men}
+#' }
+#' @example data(activite_FC)
+"activite_FC"
+
 
 #' Bats analysis of brain size in relation to foraging ecology
 #'
